@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "gilroy-bold";
+    color: rgb(255, 255, 255);
+}
+body{
+    background: linear-gradient(90deg,rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    transition: background 1s ease 0.5s;
+}
+.main{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+.main .button{
+    height: 300px;
+    width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 5px 5px 33px -3px #000000;
+    cursor: pointer;
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 45%;
+}
+h1{
+    margin: 50px;
+    text-align: center;
+    font-size: 80px;
+}
+#btn1{
+    background: linear-gradient(90deg,rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
+    border: none;
+    border-radius: 20px;
+    transition: background 1s ease 0.5s;
+}
+#btn2{
+    background: radial-gradient(circle,rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
+    border: none;
+    border-radius: 20px;
+}
+#btn3{
+    background: linear-gradient(90deg,rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+    border: none;
+    border-radius: 20px;
+}
+#btn4{
+    background: radial-gradient(circle,rgba(143, 171, 67, 1) 0%, rgba(148, 187, 233, 1) 100%);
+    border: none;
+    border-radius: 20px;
+}
